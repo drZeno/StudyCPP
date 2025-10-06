@@ -1,6 +1,18 @@
+#include <iostream>
+using namespace std;
 
-int main(int argc, char* argv[])
+int main()
 {
+    char myCharacter;
+    myCharacter = 'y';
+    int myInt;
+    myInt = 13;
+
+    cout << myCharacter << "\n";
+    cout << myInt << endl;
     
-    return 0;
+    myCharacter = 'n';
+    myInt = 12; 
+    
+    system("pause");
 }
