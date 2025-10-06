@@ -1,18 +1,13 @@
 #include <iostream>
 using namespace std;
 
+
 int main()
 {
-    char myCharacter;
-    myCharacter = 'y';
-    int myInt;
-    myInt = 13;
+ float x = 0.0000000;
 
-    cout << myCharacter << "\n";
-    cout << myInt << endl;
-    
-    myCharacter = 'n';
-    myInt = 12; 
-    
-    system("pause");
+ if (x)         // 0 → false
+  cout << "true";
+ else
+  cout << "false"; // выполнится этот блок
 }
