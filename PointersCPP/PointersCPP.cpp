@@ -11,4 +11,5 @@ int main ()
     
      *justNumberPointer += 2;
     cout << *justNumberPointer << endl;
+    cout << justNumber << endl;
 }
