@@ -54,7 +54,7 @@ string Creature::GetName()
 {
     return Name;
 }
-///////////////////////
+
 
 Creature::Creature()
 {
